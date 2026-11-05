@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="114" viewBox="0 0 800 114" role="img" aria-label="ayokiru">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150" role="img" aria-label="ayokiru: tools for the Windows desktop and Unreal Engine modding">
   <style>
     .w { animation: up .7s cubic-bezier(.2,.7,.2,1) both; }
-    .bar { transform-origin: 2px 96px; animation: draw .6s cubic-bezier(.2,.7,.2,1) .45s both; }
+    .s { animation: up .7s cubic-bezier(.2,.7,.2,1) .12s both; }
+    .bar { transform-origin: 2px 128px; animation: draw .6s cubic-bezier(.2,.7,.2,1) .45s both; }
     .flow { animation: flow 9s linear 1.2s infinite; }
     @keyframes up { from { opacity: 0; transform: translateY(8px); } }
     @keyframes draw { from { transform: scaleX(0); } }
@@ -13,8 +14,9 @@
       <stop offset="0" stop-color="#FF6FA8"/><stop offset=".1667" stop-color="#9B7BFF"/><stop offset=".3333" stop-color="#4FC3FF"/>
       <stop offset=".5" stop-color="#9B7BFF"/><stop offset=".6667" stop-color="#FF6FA8"/><stop offset=".8333" stop-color="#9B7BFF"/><stop offset="1" stop-color="#4FC3FF"/>
     </linearGradient>
-    <clipPath id="bar"><rect x="2" y="94" width="56" height="4" rx="2"/></clipPath>
+    <clipPath id="bar"><rect x="2" y="126" width="56" height="4" rx="2"/></clipPath>
   </defs>
-  <text class="w" x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.5" fill="#F0F6FC">ayokiru</text>
-  <g class="bar" clip-path="url(#bar)"><rect class="flow" x="2" y="94" width="168" height="4" fill="url(#g)"/></g>
+  <text class="w" x="0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.5" fill="#F0F6FC">ayokiru</text>
+  <text class="s" x="2" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="20" letter-spacing="-0.2" fill="#9198A1">Tools for the Windows desktop and for Unreal Engine game mods.</text>
+  <g class="bar" clip-path="url(#bar)"><rect class="flow" x="2" y="126" width="168" height="4" fill="url(#g)"/></g>
 </svg>
