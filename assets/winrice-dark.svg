@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="396" height="150" viewBox="0 0 396 150" role="img" aria-label="winrice">
+  <rect x=".5" y=".5" width="395" height="149" rx="10" fill="#161B22" stroke="#30363D"/>
+  <text x="20" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#F0F6FC">winrice</text>
+  <text x="20" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#9198A1">Dotfiles for your Windows look. Capture, share</text><text x="20" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#9198A1">and apply a whole desktop setup with one command.</text>
+  <circle cx="26" cy="126" r="5" fill="#DEA584"/><text x="38" y="131" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9198A1">Rust</text><text x="376" y="131" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" fill="#9198A1">MIT</text>
+</svg>
