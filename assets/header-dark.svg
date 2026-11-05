@@ -1,5 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="114" viewBox="0 0 800 114" role="img" aria-label="ayokiru">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF6FA8"/><stop offset=".5" stop-color="#9B7BFF"/><stop offset="1" stop-color="#4FC3FF"/></linearGradient></defs>
-  <text x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.5" fill="#F0F6FC">ayokiru</text>
-  <rect x="2" y="94" width="56" height="4" rx="2" fill="url(#g)"/>
+  <style>
+    .w { animation: up .7s cubic-bezier(.2,.7,.2,1) both; }
+    .bar { transform-origin: 2px 96px; animation: draw .6s cubic-bezier(.2,.7,.2,1) .45s both; }
+    .flow { animation: flow 9s linear 1.2s infinite; }
+    @keyframes up { from { opacity: 0; transform: translateY(8px); } }
+    @keyframes draw { from { transform: scaleX(0); } }
+    @keyframes flow { to { transform: translateX(-112px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="2" y1="0" x2="170" y2="0">
+      <stop offset="0" stop-color="#FF6FA8"/><stop offset=".1667" stop-color="#9B7BFF"/><stop offset=".3333" stop-color="#4FC3FF"/>
+      <stop offset=".5" stop-color="#9B7BFF"/><stop offset=".6667" stop-color="#FF6FA8"/><stop offset=".8333" stop-color="#9B7BFF"/><stop offset="1" stop-color="#4FC3FF"/>
+    </linearGradient>
+    <clipPath id="bar"><rect x="2" y="94" width="56" height="4" rx="2"/></clipPath>
+  </defs>
+  <text class="w" x="0" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-2.5" fill="#F0F6FC">ayokiru</text>
+  <g class="bar" clip-path="url(#bar)"><rect class="flow" x="2" y="94" width="168" height="4" fill="url(#g)"/></g>
 </svg>
